@@ -1,7 +1,13 @@
 <?php
-require_once __DIR__  . '/../aula01/Pessoa.php';
+require_once __DIR__  . '/../aula02/Carro.php';
 
-$pessoa = new Pessoa();
-$pessoa->nome = "Gessé";
-var_dump($pessoa->getNome());
+$carro = new Carro();
+
+
+var_dump($carro->acelerar());
+echo "<hr>";
+
+var_dump($carro->getCor());
+echo "<hr>";
+var_dump($carro->getPortas());
 ?>
